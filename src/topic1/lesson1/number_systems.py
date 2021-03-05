@@ -55,9 +55,7 @@ def variables_task1():
     """
     "my_string, my_float, my_int = None, None, None"
 
-    my_string = "string"
-    my_float = 11
-    my_int = 123
-
-    # TODO write the code
+    my_string = "hello"
+    my_float = 11.025
+    my_int = 7
     return my_string, my_float, my_int
