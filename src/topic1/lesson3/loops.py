@@ -45,7 +45,8 @@ def loops_task1():
     Use loop for creation list with 500 integer elements
     """
     task_list = []
-    # TODO write the code
+    for i in range(500):
+        task_list.index(i)
     return task_list
 
 

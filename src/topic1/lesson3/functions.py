@@ -29,13 +29,11 @@ def function_task1():
     """
     Modify this function to return a list of strings
     """
-    # TODO write the code
-    return list()
+    return list(str.split(" "))
 
 
 def function_task2(list1, list2):
     """
     Modify this function to return concatenated lists
     """
-    # TODO write the code
-    return None
+    return list1 + list2
