@@ -26,8 +26,7 @@ def string_operations_task1():
     Split string by the empty space and return LIST
     """
     quote = "I am the wisest man alive, for I know one thing, and that is that I know nothing."
-    # TODO write the code
-    return quote
+    return quote.split(" ")
 
 
 def string_operations_task2():
@@ -35,8 +34,7 @@ def string_operations_task2():
     Return in the upper case
     """
     word = "wisest"
-    # TODO write the code
-    return word
+    return word.upper()
 
 
 def string_operations_task3():
@@ -44,5 +42,4 @@ def string_operations_task3():
     Reverse tne string
     """
     word = "wisest"
-    # TODO write the code
-    return word
+    return word[::-1]
